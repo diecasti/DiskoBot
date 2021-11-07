@@ -105,6 +105,11 @@ for (const file of commandFiles2) {
                     const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Rocket League');
                     await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
                 }
+                else 
+                if (reaction.emoji.name == '8️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Evento Esport');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
             }
         }
     
@@ -169,6 +174,11 @@ for (const file of commandFiles2) {
                     const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Rocket League');
                     await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
                 }
+                else 
+                if (reaction.emoji.name == '8️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Evento Esport');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
             }
         }
     
@@ -177,7 +187,7 @@ for (const file of commandFiles2) {
         // // The reaction is now also fully available and the properties will be reflected accurately:
         // console.log(`${reaction.count} user(s) have given the same reaction to this message!`);
     });
-
+    
 
 
     // })
