@@ -71,15 +71,39 @@ for (const file of commandFiles2) {
 
         if (reaction.message.embeds.length >= 1){
             if (reaction.message.embeds[0].title === 'Role Table'){
-                if (reaction.emoji.name == '👍'){
-
-
-                    const miembroRole = reaction.message.guild.roles.cache.find(role => role.name === 'Miembro');
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(miembroRole);
-                    //añadir el rol
-                    // const role = interaction.options.getRole('Miembro');
-                    // const member = interaction.options.getMember('target');
-                    // member.roles.add(role);
+                if (reaction.emoji.name == '1️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Miembro');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '2️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Esport');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '3️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Valorant');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '4️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Cs Go');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '5️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Warzone');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '6️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'TFT');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '7️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Rocket League');
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
                 }
             }
         }
@@ -111,15 +135,39 @@ for (const file of commandFiles2) {
 
         if (reaction.message.embeds.length >= 1){
             if (reaction.message.embeds[0].title === 'Role Table'){
-                if (reaction.emoji.name == '👍'){
-
-
-                    const miembroRole = reaction.message.guild.roles.cache.find(role => role.name === 'Miembro');
-                    await reaction.message.guild.members.cache.get(user.id).roles.remove(miembroRole);
-                    //añadir el rol
-                    // const role = interaction.options.getRole('Miembro');
-                    // const member = interaction.options.getMember('target');
-                    // member.roles.add(role);
+                if (reaction.emoji.name == '1️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Miembro');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '2️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Esport');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '3️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Valorant');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '4️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Cs Go');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '5️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Warzone');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '6️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'TFT');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
+                }
+                else 
+                if (reaction.emoji.name == '7️⃣'){
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Rocket League');
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(mrole);
                 }
             }
         }
