@@ -87,7 +87,7 @@ for (const file of commandFiles2) {
                 }
                 else 
                 if (reaction.emoji.name == '4️⃣'){
-                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Cs Go');
+                    const mrole = reaction.message.guild.roles.cache.find(role => role.name === 'Cs go');
                     await reaction.message.guild.members.cache.get(user.id).roles.add(mrole);
                 }
                 else 
